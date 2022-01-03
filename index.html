@@ -1,0 +1,91 @@
+git<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My summary</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<nav><a href="1.html">Contact</a> 
+     <a href="2.html">About me</a> 
+     <a href="3.html">My scills</a> 
+     <a href="4.html">Sample code</a>
+     <a href="5.html">Work experience</a>
+     <a href="6.html">Education</a>
+     <a href="7.html">English Level</a>
+    </nav>
+<body>
+    <div class="content">
+        <header class="content">
+            <h1 id="olga-verpovskaya">Olga Verpovskaya</h1>
+        </header>
+        <img src="fotoolga.jpg" alt="photo" title="My photo"
+         width="189" height="255" alt="lorem">
+        
+        <main>
+            <h2 id="contacts">Contacts</h2>
+            <ul>
+                <li><strong>Tel:</strong> +375291099425</li>
+                <li><strong>E-mail:</strong> verona12@mail.ru</li>
+                <li><strong>Discord:</strong> OlgaVerpovskaya (@Olgaverpovskaya) (rs-school server)</li>
+                <li><strong>VK:</strong> overpovskaya</li>
+            </ul>
+            <h2 id="about-me">About me</h2>
+            <p><strong>Brief personal information:</strong> I am 33 years old, higher education, I am married, I have 2 children.
+                Self-development plays an important role for me, so I like to learn and learn something new.</p>
+            <p><strong>My strengths:</strong></p>
+            <ol>
+                <li>Desire to learn new things</li>
+                <li>Responsible attitude to work</li>
+                <li>No bad habits</li>
+                <li>Self-possession</li>
+                <li>Honesty</li>
+            </ol>
+            <h2 id="my-skills">My skills</h2>
+            <p><strong>Main skills:</strong></p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git</li>
+            </ul>
+            <p><strong>Additional skills:</strong></p>
+            <ul>
+                <li>Windows</li>
+            </ul>
+            <h2 id="sample-code">Sample code</h2>
+            <p><strong>In JavaScript</strong></p>
+                <pre>
+                    function solution(str, ending){
+                        if (typeof(str) != "string" || typeof(ending) != "string")
+                        throw "wrong type";
+                        if (ending.length>str.length)
+                        return false;
+                        return str.substr(str.length-ending.length, ending.length) == ending;
+                        }
+                </pre>
+            <h2 id="work-experience">Work experience</h2>
+            <p>no</p>
+            <h2 id="education">Education</h2>
+            <ol>
+                <li><a href="https://ru.code-basics.com/languages/htm">Free programming courses HTML</a>
+                </li>
+                <li><a href="https://learn.javascript.ru/">JavaScript Basics</a></li>
+            </ol>
+            <h2 id="english-level">English Level</h2>
+            <p>Pre-Intermediate - A2 I always trying to take some time for practicing my english.</p>
+        </main>
+    </div>
+    <footer>
+        <span class="git-link">
+            ©2021 by <a href="https://github.com/OlgaVerpovskaya">Olga Verpovskaya</a>
+        </span>
+        <span>
+            <a href="https://rs.school/js/">
+                <img src="assets/img/rs_school_js.svg" alt="Ссылка на курс «JavaScript/Front-end»" height="26">
+            </a>
+        </span>
+    </footer>
+</body>
+
+</html>
