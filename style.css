@@ -36,13 +36,13 @@ footer {
   text-align: right;
 }
 .nav-list {
+  list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
-  padding: 10 50px;
-  line-height: 50px;
+  padding: 0 50px;
+  line-height: 20px;
 }
 html {
   scroll-behavior: smooth; 
 }
-
