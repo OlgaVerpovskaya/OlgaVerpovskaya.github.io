@@ -16,7 +16,7 @@ section {
   width: 750px;
   font-family: Arial Helvetica, sans-serif;
   color: rgb(37, 37, 37);
-  background: #fff;
+  background: rgb(244, 248, 247);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   margin: 10px 10px 10px 10px;
   position: relative;
@@ -24,7 +24,7 @@ section {
 }
 .content {
   text-align: left;
-  padding: 2px 10px 10px 20px;
+  padding: 0px 5px 10px 10px;
 }
 
 footer {
@@ -33,5 +33,23 @@ footer {
   margin: 0 20px 30px 20px;
   padding: 0 20px 30px 120px;
   border: rgb(34, 18, 218);
-  text-align: center;
+  text-align: right;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10 50px;
+  line-height: 50px;
+}
+html {
+  scroll-behavior: smooth; 
+}
+.section-item a {
+  color: #829985;
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+.section-item a:hover {
+  color: #4d2323;
 }
